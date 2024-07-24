@@ -5,7 +5,16 @@
   "description": "This repository contains the frontend codebase for an easy to use, pet friendly, care services application called Ruffrl. The application is built using React, TypeScript, and React Native, and is designed to be responsive across multiple platforms including desktop, mobile web, Android, and iOS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web-start": "yarn workspace web start",
+    "web-nodeModules": "yarn workspace web install",
+    "app-nodeModules": "yarn workspace app install",
+    "app-start": "yarn workspace app start",
+    "app-pods": "yarn workspace app pods",
+    "app-ios": "yarn workspace app ios",
+    "app-android": "yarn workspace app android",
+    "common-build": "yarn workspace common build",
+    "common-nodeModules": "yarn workspace common install"
   },
   "keywords": [],
   "author": "",

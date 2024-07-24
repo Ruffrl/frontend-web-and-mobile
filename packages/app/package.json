@@ -41,11 +41,5 @@
   },
   "installConfig": {
     "hoistingLimits": "workspaces"
-  },
-  "workspaces": {
-    "nohoist": [
-      "react-native",
-      "react-native/**"
-    ]
   }
 }

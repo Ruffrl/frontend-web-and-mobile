@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "rufferal-frontend",
+  "version": "1.0.0",
+  "description": "This repository contains the frontend codebase for an easy to use, pet friendly, care services application called Ruffrl. The application is built using React, TypeScript, and React Native, and is designed to be responsive across multiple platforms including desktop, mobile web, Android, and iOS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ]
+}

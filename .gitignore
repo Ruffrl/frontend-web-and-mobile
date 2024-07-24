@@ -2,3 +2,7 @@
 
 # github
 .github
+
+# dependencies
+node_modules
+.yarn

@@ -3853,6 +3853,7 @@ dequal@^2.0.3:
   version "0.1.0"
   resolved "file:packages/web"
   dependencies:
+    "@rufferal/common" "1.0.0"
     "@testing-library/jest-dom" "^5.17.0"
     "@testing-library/react" "^13.4.0"
     "@testing-library/user-event" "^13.5.0"
